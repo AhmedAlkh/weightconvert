@@ -1,3 +1,3 @@
 # weightconvert
 
-Convert kg to pounds
+Convert kg to pounds and pounds to kg
