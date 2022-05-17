@@ -20,6 +20,18 @@
         <p>Your weight in pounds is: <span id="outputPounds"></span></p>
     </div>
 
+    <div id="container">
+        <h1>Weight Convertor (pounds to kg)</h1>
+        <p>Enter weight value in pounds</p>
+
+        <p>
+            <label>pounds</label>
+            <input id="inputpounds" type="number" placeholder="Pounds" oninput="weightConverterPounds(this.value)"
+            onchange="weightConverterPounds">
+        </p>
+        <p>Your weight in kilograms is: <span id="outputKg"></span></p>
+    </div>
+
     <script src="index.js"></script>
     
 </body>
